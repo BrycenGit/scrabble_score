@@ -8,7 +8,7 @@ describe('Word#scrabble_score') do
   end
 
   it("returns a scrabble score for the word 'hello' ") do
-    new_word = Word.new("hello")
+    new_word = Word.new("Hello")
     expect(new_word.scrabble_score()).to(eq(8))
   end
 end
